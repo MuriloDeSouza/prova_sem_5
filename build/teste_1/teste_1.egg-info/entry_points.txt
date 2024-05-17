@@ -1,0 +1,3 @@
+[console_scripts]
+teste_top = teste_1.teste_top:main
+

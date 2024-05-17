@@ -1,0 +1,34 @@
+[3.206s] Invoking command in '/home/murilo_prianti/Documents/GitHub/prova_sem_5/meu_workspace/src/ola_mundo': PYTHONPATH=/home/murilo_prianti/Documents/GitHub/prova_sem_5/build/ola_mundo/prefix_override:/home/murilo_prianti/Documents/GitHub/prova_sem_5/install/ola_mundo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ola_mundo build --build-base /home/murilo_prianti/Documents/GitHub/prova_sem_5/build/ola_mundo/build install --record /home/murilo_prianti/Documents/GitHub/prova_sem_5/build/ola_mundo/install.log --single-version-externally-managed install_data
+[3.383s] running egg_info
+[3.384s] creating ../../../build/ola_mundo/ola_mundo.egg-info
+[3.384s] writing ../../../build/ola_mundo/ola_mundo.egg-info/PKG-INFO
+[3.384s] writing dependency_links to ../../../build/ola_mundo/ola_mundo.egg-info/dependency_links.txt
+[3.384s] writing entry points to ../../../build/ola_mundo/ola_mundo.egg-info/entry_points.txt
+[3.384s] writing requirements to ../../../build/ola_mundo/ola_mundo.egg-info/requires.txt
+[3.385s] writing top-level names to ../../../build/ola_mundo/ola_mundo.egg-info/top_level.txt
+[3.385s] writing manifest file '../../../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+[3.387s] reading manifest file '../../../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+[3.388s] writing manifest file '../../../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+[3.388s] running build
+[3.388s] running build_py
+[3.388s] creating /home/murilo_prianti/Documents/GitHub/prova_sem_5/build/ola_mundo/build
+[3.388s] creating /home/murilo_prianti/Documents/GitHub/prova_sem_5/build/ola_mundo/build/lib
+[3.388s] creating /home/murilo_prianti/Documents/GitHub/prova_sem_5/build/ola_mundo/build/lib/ola_mundo
+[3.388s] copying ola_mundo/__init__.py -> /home/murilo_prianti/Documents/GitHub/prova_sem_5/build/ola_mundo/build/lib/ola_mundo
+[3.389s] running install
+[3.389s] running install_lib
+[3.390s] creating /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/ola_mundo/lib/python3.10/site-packages/ola_mundo
+[3.390s] copying /home/murilo_prianti/Documents/GitHub/prova_sem_5/build/ola_mundo/build/lib/ola_mundo/__init__.py -> /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/ola_mundo/lib/python3.10/site-packages/ola_mundo
+[3.390s] byte-compiling /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/ola_mundo/lib/python3.10/site-packages/ola_mundo/__init__.py to __init__.cpython-310.pyc
+[3.390s] running install_data
+[3.391s] creating /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/ola_mundo/share/ament_index
+[3.391s] creating /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/ola_mundo/share/ament_index/resource_index
+[3.391s] creating /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/ola_mundo/share/ament_index/resource_index/packages
+[3.391s] copying resource/ola_mundo -> /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/ola_mundo/share/ament_index/resource_index/packages
+[3.391s] copying package.xml -> /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/ola_mundo/share/ola_mundo
+[3.391s] running install_egg_info
+[3.393s] Copying ../../../build/ola_mundo/ola_mundo.egg-info to /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/ola_mundo/lib/python3.10/site-packages/ola_mundo-0.0.0-py3.10.egg-info
+[3.394s] running install_scripts
+[3.415s] Installing ola script to /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/ola_mundo/lib/ola_mundo
+[3.415s] writing list of installed files to '/home/murilo_prianti/Documents/GitHub/prova_sem_5/build/ola_mundo/install.log'
+[3.446s] Invoked command in '/home/murilo_prianti/Documents/GitHub/prova_sem_5/meu_workspace/src/ola_mundo' returned '0': PYTHONPATH=/home/murilo_prianti/Documents/GitHub/prova_sem_5/build/ola_mundo/prefix_override:/home/murilo_prianti/Documents/GitHub/prova_sem_5/install/ola_mundo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ola_mundo build --build-base /home/murilo_prianti/Documents/GitHub/prova_sem_5/build/ola_mundo/build install --record /home/murilo_prianti/Documents/GitHub/prova_sem_5/build/ola_mundo/install.log --single-version-externally-managed install_data

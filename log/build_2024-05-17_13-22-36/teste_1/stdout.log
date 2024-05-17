@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/teste_1/teste_1.egg-info
+writing ../../../build/teste_1/teste_1.egg-info/PKG-INFO
+writing dependency_links to ../../../build/teste_1/teste_1.egg-info/dependency_links.txt
+writing entry points to ../../../build/teste_1/teste_1.egg-info/entry_points.txt
+writing requirements to ../../../build/teste_1/teste_1.egg-info/requires.txt
+writing top-level names to ../../../build/teste_1/teste_1.egg-info/top_level.txt
+writing manifest file '../../../build/teste_1/teste_1.egg-info/SOURCES.txt'
+reading manifest file '../../../build/teste_1/teste_1.egg-info/SOURCES.txt'
+writing manifest file '../../../build/teste_1/teste_1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/murilo_prianti/Documents/GitHub/prova_sem_5/build/teste_1/build
+creating /home/murilo_prianti/Documents/GitHub/prova_sem_5/build/teste_1/build/lib
+creating /home/murilo_prianti/Documents/GitHub/prova_sem_5/build/teste_1/build/lib/teste_1
+copying teste_1/teste_top.py -> /home/murilo_prianti/Documents/GitHub/prova_sem_5/build/teste_1/build/lib/teste_1
+copying teste_1/__init__.py -> /home/murilo_prianti/Documents/GitHub/prova_sem_5/build/teste_1/build/lib/teste_1
+running install
+running install_lib
+creating /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/teste_1/lib/python3.10/site-packages/teste_1
+copying /home/murilo_prianti/Documents/GitHub/prova_sem_5/build/teste_1/build/lib/teste_1/teste_top.py -> /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/teste_1/lib/python3.10/site-packages/teste_1
+copying /home/murilo_prianti/Documents/GitHub/prova_sem_5/build/teste_1/build/lib/teste_1/__init__.py -> /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/teste_1/lib/python3.10/site-packages/teste_1
+byte-compiling /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/teste_1/lib/python3.10/site-packages/teste_1/teste_top.py to teste_top.cpython-310.pyc
+byte-compiling /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/teste_1/lib/python3.10/site-packages/teste_1/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/teste_1/share/ament_index
+creating /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/teste_1/share/ament_index/resource_index
+creating /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/teste_1/share/ament_index/resource_index/packages
+copying resource/teste_1 -> /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/teste_1/share/ament_index/resource_index/packages
+copying package.xml -> /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/teste_1/share/teste_1
+running install_egg_info
+Copying ../../../build/teste_1/teste_1.egg-info to /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/teste_1/lib/python3.10/site-packages/teste_1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing teste_top script to /home/murilo_prianti/Documents/GitHub/prova_sem_5/install/teste_1/lib/teste_1
+writing list of installed files to '/home/murilo_prianti/Documents/GitHub/prova_sem_5/build/teste_1/install.log'

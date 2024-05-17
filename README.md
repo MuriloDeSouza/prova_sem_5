@@ -1,18 +1,29 @@
 # prova_sem_5
 
-Este é um programa Python para controlar uma tartaruga no Turtlesim usando o ROS (Robot Operating System). O programa desenha um quadrado e permite aprender os comandos básicos para controlar o robô, aplicando-os em um projeto simples.
+Este é um programa Python para controlar uma tartaruga no Turtlesim usando o ROS (Robot Operating System). O programa vai funcionar com uma fila e ai vai consumindo da esquerda para a direita os movimentos que a pessoa coloca
 
 ## Pré-requisitos
 
 Certifique-se de ter o ROS instalado no seu sistema. Além disso, é necessário preparar a área de trabalho para trabalhar com o ROS. 
 
 1. Instale o ROS seguindo as instruções no site oficial: [ROS Installation](http://wiki.ros.org/Installation).
-2. Prepare a área de trabalho executando os seguintes comandos no terminal:
+
+2. Rode esses comando para poder preparar a área do seu pc para funcionar:
+```cmd
+sudo apt install python3-rosdep
+sudo rosdep init
+rosdep update
+rosdep install -i --from-path src --rosdistro humble -y
+```
+
+3. Prepare a área de trabalho executando os seguintes comandos no terminal:
 
 ```bash
 colcon build
 source install/local_setup.bash
 ```
+
+
 
 ## Intalação do Turtlesim
 
@@ -34,15 +45,8 @@ ros2 run ponderada_semana_2 ponderada_2
 
 ## Detalhes do Projeto
 
-O intuito deste projeto é aprender os comandos básicos para controlar um robô no ambiente do ROS. O desenho de um quadrado foi escolhido como exemplo, pois é uma tarefa simples que envolve movimentos básicos (avançar, girar) e é útil para entender como controlar a tartaruga no Turtlesim.
-
-É importante preparar o arquivo setup.py para configurar o ambiente de trabalho e tornar possível a execução do projeto do Turtlesim. Este arquivo contém informações sobre as dependências e configurações do projeto.
+O objetivo do projeto é criar uma aplicação que permitam as pessoas que vão usar o código, enviar comandos de movimento para a tartaruga no Turtlesim ( em um formato de vx(0.0), vy(0.0) vtheta(0.0) e time(1000)). Esses comandos estão sendo enfileirados e são executados sequencialmente, garantindo que cada comando seja concluído antes que o próximo seja iniciado com o uso do deque que fica presente no collections que ja vem com o python. Dessa forma, podemos proporcionar uma experiência de uso fluida para os operadores.
 
 ## Autor
 
 Este projeto foi desenvolvido por mim, Murilo de Souza Prianti Silva.
-
-## Link do vídeo de funcionamento
-
-Segue o link do drive com o vídeo do funcionamento:
-https://drive.google.com/file/d/1dP__wFe3IbzYHuusS36EPy-NuadEqemV/view?usp=sharing

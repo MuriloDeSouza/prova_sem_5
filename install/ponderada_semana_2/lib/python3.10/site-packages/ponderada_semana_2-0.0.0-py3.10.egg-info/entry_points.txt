@@ -1,0 +1,3 @@
+[console_scripts]
+ponderada_2 = ponderada_semana_2.ponderada_2:main
+
