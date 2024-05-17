@@ -23,7 +23,10 @@ colcon build
 source install/local_setup.bash
 ```
 
-
+4. Para poder baixar todas as dependências usamos o código:
+```bash
+python3 -m pip install -r requirements.txt
+```
 
 ## Intalação do Turtlesim
 
